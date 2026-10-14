@@ -1,0 +1,63 @@
+:root {
+  color-scheme: light;
+  --ink: #16232e;
+  --muted: #5a6b7a;
+  --navy: #0b3d64;
+  --navy-dark: #082c49;
+  --gold: #d4a65a;
+  --paper: #f4f6fa;
+  --card: #ffffff;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "Nirmala UI", "Segoe UI", sans-serif;
+  color: var(--ink);
+  background: linear-gradient(160deg, #d9e8f6, #f3f7fb 45%, #f8f1e4);
+  line-height: 1.65;
+}
+.hero {
+  background: linear-gradient(135deg, #0e4a72, #14507c 55%, var(--navy-dark));
+  color: #fff;
+  padding: 36px 20px 28px;
+  border-bottom: 4px solid var(--gold);
+}
+.brand {
+  margin: 0 0 6px;
+  letter-spacing: 0.04em;
+  color: var(--gold);
+  font-weight: 700;
+}
+h1 { margin: 0 0 8px; font-size: 32px; }
+.hero p { margin: 0; opacity: 0.9; }
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 8px 20px 48px;
+}
+h2 {
+  margin: 28px 0 8px;
+  color: var(--navy);
+  font-size: 22px;
+}
+p, li { font-size: 17px; }
+a { color: var(--navy); }
+.button {
+  display: inline-block;
+  margin-top: 8px;
+  background: var(--navy);
+  color: #fff !important;
+  text-decoration: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+footer {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 20px 40px;
+}
+@media (max-width: 600px) {
+  h1 { font-size: 26px; }
+  p, li { font-size: 16px; }
+}
